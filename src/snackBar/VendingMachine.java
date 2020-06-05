@@ -1,7 +1,7 @@
 package snackBar;
 
 public class VendingMachine {
-    
+
     private static int maxId = 0;
 
     public int id;
@@ -13,7 +13,7 @@ public class VendingMachine {
 
         this.name = name;
     }
-    //Getter
+    //Getters
     public int getId(){
         return id;
     }
